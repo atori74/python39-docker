@@ -1,0 +1,4 @@
+beautifulsoup4>=4.8.0
+lxml>=4.4.1
+numpy>=1.17.4
+pandas>=0.25.3

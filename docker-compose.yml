@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    python:
+        restart: always
+        build: .
+        image: pyenv39
+        container_name: python39
+        working_dir: /usr/src/app
+        tty: true
+        volumes:
+            - ~/develop/python:/usr/src/app
